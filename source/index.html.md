@@ -21,7 +21,7 @@ search: true
 
 # Overivew
 
-The *Smart Reference Data REST API* provides ¨your¨ with a Convenient, and simple web services interface for interacting with Smart Reference Data database server. The REST APIs are designed to easily access Smart Reference Data database and perform key tasks, that include, insert, update, and retrieve operation.
+The *Smart Reference Data REST API* provides you with a Convenient, and simple web services interface for interacting with Smart Reference Data database server. The REST APIs are designed to easily access Smart Reference Data database and perform key tasks, that include, insert, update, and retrieve operation.
 
 The Intergraph Smart® Reference Data REST API Help explains the basics of using the REST APIs to access Smart Reference Data database server.
 
@@ -57,7 +57,7 @@ You will be able to perform retrieve operation on the following business objects
 # Authorization Architecture
 
 A common OAuth allows a third-party client, such as PostMan web API, termed the client in the OAuth 2.0 specification, to operate on behalf of a user, without revealing that user’s credentials, such as user name and password, to the client. The client first sends the user credentials to an authorization server (Intergraph's Cloud9 service), which authenticates the user, obtains the user’s authorization, and issues an access token which the client can use in interacting with a resource server (Smart Reference Data database server)
-![OAuth2.0](OAuth2.0.png)
+![OAuth2.0] (OAuth2.0.png)
 
 
 `Authorization: Process Flow`
